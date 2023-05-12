@@ -1,0 +1,1207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: aliceblue;
+  }
+  .box-1 {
+          width: 350px;
+          height: 100%;
+          position: fixed;
+          background-color: #333;
+          left: 0;
+          transform: translate(-350px);
+          transition: all 1s;
+          color: #eee;
+        }
+  
+        .box-1:hover {
+          transform: translate(0px);
+          transition-duration: 1s;
+          cursor: pointer;
+        }
+  
+        .box-1 > h2:first-child {
+          font-size: 55px;
+          color: #fff;
+          width: 110%;
+          height: 100px;
+          text-align: right;
+          background-color: tomato;
+          opacity: 0.5;
+          transition: 0.2s 0.2s all;
+        }
+  
+        .box-1:hover > h2:first-child {
+          width: 100%;
+          opacity: 1;
+        }
+        .box-1>div>ul>li{
+          margin-top: 20px;
+        }
+        .box-1>div>ul>li>a{
+          text-decoration: none;
+          font-size: 50px;
+          color: aliceblue;
+        }
+        .box-1>div>ul>li>a:hover{
+          color: green;
+        }
+  header {
+    width: 100%;
+    height: 200px;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  header > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background: #edecea;
+  }
+  header > nav > div {
+    color: black;
+    font-size: 30px;
+  }
+  header > nav > div > span {
+    color: red;
+  }
+  header > nav > ul {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+  header > nav > ul > li {
+    list-style: none;
+  }
+  header > nav > ul > li > a {
+    font-size: 25px;
+    text-decoration: none;
+    color: darkslateblue;
+  }
+  header > nav > ul > li > a:hover {
+    color: purple;
+  }
+  header > nav > ul > li.Login>a{
+    color: brown;
+  
+  }
+  .productsMeat{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .productsMeat>div:nth-child(1){
+font-size: 50px;
+margin: 70px;
+color: brown;
+font-weight: 900;
+  }
+  .productsMeat>div:nth-child(2){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .product1{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product2{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product3{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product4{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product5{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product62{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product12{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product22{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product32{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product42{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product622{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product52{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product6{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  section.productsMeat>div:nth-child(2)>div.product1{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product2{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product3{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product4{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product5{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product12{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product22{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product32{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product42{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product52{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product6{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.productsMeat>div:nth-child(2)>div.product1>div.img{
+    background-image: url("imgs/meat1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product2>div.img{
+    background-image: url("imgs/meat2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product3>div.img{
+    background-image: url("imgs/meat3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product4>div.img{
+    background-image: url("imgs/meat4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product5>div.img{
+    background-image: url("imgs/meat5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product12>div.img{
+    background-image: url("imgs/meat1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product22>div.img{
+    background-image: url("imgs/meat2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product32>div.img{
+    background-image: url("imgs/meat3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product42>div.img{
+    background-image: url("imgs/meat4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product52>div.img{
+    background-image: url("imgs/meat5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsMeat>div:nth-child(2)>div.product6>div.img{
+    cursor: pointer;
+    background-image: url("imgs/addphoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 50%;
+    width: 80%;
+  }
+ 
+  .Btns{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+    height: 10%;
+  }
+  .Remove1{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove2{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove3{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove4{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove5{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Edit{
+    background-color: blue  ;
+    margin-top: -15px;
+    margin-right: 50px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Add{
+    background-color: green;
+    margin-top: -15px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Save{
+    background-color: green;
+    margin-top: -10px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .productsDessert{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .productsDessert>div:nth-child(1){
+font-size: 50px;
+margin: 70px;
+color: brown;
+font-weight: 900;
+  }
+  .productsDessert>div:nth-child(2){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .product11{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product21{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product13{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product14{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product15{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product16{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product17{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product112{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product121{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product132{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product142{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product162{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product152{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  section.productsDessert>div:nth-child(2)>div.product11>div.img{
+    background-image: url("imgs/chcake1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product21>div.img{
+    background-image: url("imgs/chcake2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product13>div.img{
+    background-image: url("imgs/chcake3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product14>div.img{
+    background-image: url("imgs/chcake4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product15>div.img{
+    background-image: url("imgs/choco1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product16>div.img{
+    background-image: url("imgs/desert1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product112>div.img{
+    background-image: url("imgs/chcake1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product121>div.img{
+    background-image: url("imgs/chcake2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product132>div.img{
+    background-image: url("imgs/chcake3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product142>div.img{
+    background-image: url("imgs/chcake4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product152>div.img{
+    background-image: url("imgs/choco1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product162>div.img{
+    background-image: url("imgs/desert1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDessert>div:nth-child(2)>div.product17>div.img{
+    cursor: pointer;
+    background-image: url("imgs/addphoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 50%;
+    width: 80%;
+  }
+  .Remove11{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove21{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove13{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove14{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove15{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove16{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  } 
+  .productsDrink{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .productsDrink>div:nth-child(1){
+font-size: 50px;
+margin: 70px;
+color: brown;
+font-weight: 900;
+  }
+  .productsDrink>div:nth-child(2){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .product111{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product222{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product333{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product444{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product555{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product666{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .product17{
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product1111{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product2222{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product3333{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product4444{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product6666{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  #product5555{
+    display: none;
+    box-shadow: 5px 10px 5px 10px grey;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  section.productsDrink>div:nth-child(2)>div.product111>div.img{
+    background-image: url("imgs/drink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product222>div.img{
+    background-image: url("imgs/drink4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product333>div.img{
+    background-image: url("imgs/drink3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product444>div.img{
+    background-image: url("imgs/smoothie1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product555>div.img{
+    background-image: url("imgs/smoothie2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product666>div.img{
+    background-image: url("imgs/smoothie3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product1111>div.img{
+    background-image: url("imgs/drink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product2222>div.img{
+    background-image: url("imgs/drink4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product3333>div.img{
+    background-image: url("imgs/drink3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product4444>div.img{
+    background-image: url("imgs/smoothie1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product5555>div.img{
+    background-image: url("imgs/smoothie2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product6666>div.img{
+    background-image: url("imgs/smoothie3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 70%;
+    width: 80%;
+  }
+  section.productsDrink>div:nth-child(2)>div.product17>div.img{
+    cursor: pointer;
+    background-image: url("imgs/addphoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    height: 50%;
+    width: 80%;
+  }
+  .Remove111{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove222{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove333{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove444{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove555{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .Remove666{
+    margin-top: -15px;
+    margin-left: 50px;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  } 
+
+  footer {
+    margin-top: 200px;
+background-color: white;
+}
+footer > div {
+height: 400px;
+margin: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+footer > div > div {
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+footer > div > div > div > a {
+text-decoration: none;
+color: chocolate;
+}
+footer > div > div > div:nth-child(1) {
+font-size: 20px;
+font-weight: 900;
+}
+footer > div > div > div:nth-child(5) {
+width: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 5px;
+}

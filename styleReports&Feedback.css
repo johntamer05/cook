@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: aliceblue;
+  }
+  .box-1 {
+          width: 350px;
+          height: 100%;
+          position: fixed;
+          background-color: #333;
+          left: 0;
+          transform: translate(-350px);
+          transition: all 1s;
+          color: #eee;
+        }
+  
+        .box-1:hover {
+          transform: translate(0px);
+          transition-duration: 1s;
+          cursor: pointer;
+        }
+  
+        .box-1 > h2:first-child {
+          font-size: 55px;
+          color: #fff;
+          width: 110%;
+          height: 100px;
+          text-align: right;
+          background-color: tomato;
+          opacity: 0.5;
+          transition: 0.2s 0.2s all;
+        }
+  
+        .box-1:hover > h2:first-child {
+          width: 100%;
+          opacity: 1;
+        }
+        .box-1>div>ul>li{
+          margin-top: 20px;
+        }
+        .box-1>div>ul>li>a{
+          text-decoration: none;
+          font-size: 50px;
+          color: aliceblue;
+        }
+        .box-1>div>ul>li>a:hover{
+          color: green;
+        }
+  header {
+    width: 100%;
+    height: 200px;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  header > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background: #edecea;
+  }
+  header > nav > div {
+    color: black;
+    font-size: 30px;
+  }
+  header > nav > div > span {
+    color: red;
+  }
+  header > nav > ul {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+  header > nav > ul > li {
+    list-style: none;
+  }
+  header > nav > ul > li > a {
+    font-size: 25px;
+    text-decoration: none;
+    color: darkslateblue;
+  }
+  header > nav > ul > li > a:hover {
+    color: purple;
+  }
+  header > nav > ul > li.Login>a{
+    color: brown;
+  
+  }
+  .allreport{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .allreport>div:nth-child(1){
+    font-size: 50px;
+    margin: 50px 150px;
+    color: red;
+  }
+  .allreport>div:nth-child(2){
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+  }
+  .report1{
+    
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .report1>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .report2{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .report2>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .report3{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .report3>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .report4{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .report4>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .allreport .header{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+  }
+  section.allreport>div.box>div.report1>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar1.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allreport>div.box>div.report2>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar2.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allreport>div.box>div.report3>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar3.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allreport>div.box>div.report4>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar4.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .allreport .report1 .header .name{
+   display: flex;
+    padding: 20px;
+  }
+  .allreport .report1 .Text{
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+
+  .allreport .report1>div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+  }
+  .allreport .report1>div >input{
+    width: 70%;
+    height: 50%;
+  }
+  .allreport .report1>div >button{
+    border: none;
+    width: 20%;
+    height: 50%;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .allreport .report2 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allreport .report2 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allreport .report2>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allreport .report2>div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allreport .report2>div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+   .allreport .report3 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allreport .report3 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allreport .report3>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allreport .report3>div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allreport .report3>div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+   .allreport .report4 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allreport .report4 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allreport .report4>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allreport .report4>div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allreport .report4>div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+  .allfeedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .allfeedback>div:nth-child(1){
+    font-size: 50px;
+    margin: 50px 150px;
+    color: red;
+  }
+  .allfeedback>div:nth-child(2){
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+  }
+  .feedback1{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .feedback1>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .feedback2{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .feedback2>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .feedback3{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .feedback3>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .feedback4{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+  .feedback4>div{
+    margin: 20px 40px;
+    width: 400;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .allfeedback .header{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+  }
+  section.allfeedback>div.box>div.feedback1>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar1.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allfeedback>div.box>div.feedback2>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar2.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allfeedback>div.box>div.feedback3>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar3.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  section.allfeedback>div.box>div.feedback4>div.header>div.img{
+    display: flex;
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(imgs/avatar4.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .allfeedback .feedback1 .header .name{
+   display: flex;
+    padding: 20px;
+  }
+  .allfeedback .feedback1 .Text{
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow: 5px 10px 5px 10px grey;
+  }
+
+  .allfeedback .feedback1>div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+  }
+  .allfeedback .feedback1>div >input{
+    width: 70%;
+    height: 50%;
+  }
+  .allfeedback .feedback1 >div >button{
+    border: none;
+    width: 20%;
+    height: 50%;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .allfeedback .feedback2 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allfeedback .feedback2 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allfeedback .feedback2>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allfeedback .feedback2 >div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allfeedback .feedback2 >div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+   .allfeedback .feedback3 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allfeedback .feedback3 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allfeedback .feedback3>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allfeedback .feedback3 >div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allfeedback .feedback3 >div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+
+   .allfeedback .feedback4 .header .name{
+    display: flex;
+     padding: 20px;
+   }
+   .allfeedback .feedback4 .Text{
+     padding: 10px;
+     margin-top: 40px;
+     box-shadow: 5px 10px 5px 10px grey;
+   }
+ 
+   .allfeedback .feedback4>div:nth-child(3){
+     display: flex;
+     flex-direction: row;
+   }
+   .allfeedback .feedback4 >div >input{
+     width: 70%;
+     height: 50%;
+   }
+   .allfeedback .feedback4 >div >button{
+     border: none;
+     width: 20%;
+     height: 50%;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+   }
+   footer {
+    margin-top: 200px;
+background-color: white;
+}
+footer > div {
+height: 400px;
+margin: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+footer > div > div {
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+footer > div > div > div > a {
+text-decoration: none;
+color: chocolate;
+}
+footer > div > div > div:nth-child(1) {
+font-size: 20px;
+font-weight: 900;
+}
+footer > div > div > div:nth-child(5) {
+width: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 5px;
+}

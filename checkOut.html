@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkOut.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Payment</h1>
+            <form>
+                <div class="visa">
+                    <img src="imgs/visa.png"/>
+                     <div class="input-field" id="visaField">
+                    <input type="text" placeholder="**** **** **** 3193">
+                     </div>
+                    </div>
+                    <div class="visa">
+                        <img src="imgs/mastercard.png"/>
+                         <div class="input-field" id="visaField">
+                        <input type="text" placeholder="**** **** **** 4296">
+                         </div>
+                        </div>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                       <i class="fa-solid fa-user"></i>
+                   <input type="text" placeholder="Credit name">
+                    </div>
+                    <div class="cvv">
+                    <div class="input-field" id="cvvField">
+                    <input type="number" placeholder="CVV">
+                     </div>
+                     <div class="date-field" id="dateField">
+                        <input type="date" placeholder="Date expire">
+                     </div>
+                    </div>
+                    <div class="input-field" id="emailFeild">
+                        <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                     </div>
+                </div>
+                <div class="btn-field">
+                    <div>
+                        <div class="Btn">
+                            <a href="index.html">  <button type="button" id="confirmBtn">Confirm</button></a>
+                       </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="checkOut.js"></script>
+</body>
+</html>

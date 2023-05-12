@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleEdititem.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="box-1">
+        <h2>Admin Name|||</h2>
+        <div>
+          <ul>
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="meat.html">Settings</a></li>
+          </ul>
+        </div>
+      </div>
+  
+    <div>
+        <nav>
+            <header>
+                <nav>
+                    <div>H<span>U</span>M EL M<span>A</span>M</div>
+                    <ul>
+                      <li><a href="admin.html">Home</a></li>
+                      <li><a href="reports&feedback.html">Reports & Feedback</a></li>
+                      <li><a href="edititem.html">Edit item</a></li>
+                      <li><a href="dessert.html">Employee & Customer</a></li>
+                      <li class="Login"><a href="Login.html">Logout</a></li>
+                    </ul>
+                  </nav>
+            </header>
+        </nav>
+    </div>
+
+    <section class="productsMeat">
+        <div>Meat</div>
+        <div>
+            <div class="product1" id="product1">
+                <div>Garlic Butter Steak Bites</div>
+                <div class="img"></div>
+                <div>120,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit1">Edit</button>
+                    <button class="Remove1" id="Remove1">Remove</button>
+                </div>
+            </div>
+            <div class="product1" id="product12">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Garlic Butter Steak Bites</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">120,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save1">Save</button>
+                </div>
+            </div>
+             <div class="product2" id="product2">
+                <div>Instant Pot Meatloaf and Mashed Potatoes</div>
+                <div class="img"></div>
+                <div>220,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit2">Edit</button>
+                    <button class="Remove2" id="Remove2">Remove</button>
+                </div>
+            </div>
+            <div class="product22" id="product22">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Instant Pot Meatloaf and Mashed Potatoes</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">220,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save2">Save</button>
+                </div>
+            </div>
+            <div class="product3" id="product3">
+                <div>Easy Slow Cooker Beef Stroganoff</div>
+                <div class="img"></div>
+                <div>250,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit3">Edit</button>
+                    <button class="Remove3" id="Remove3">Remove</button>
+                </div>
+            </div>
+            <div class="product32" id="product32">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Easy Slow Cooker Beef Stroganoff</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">250,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save3">Save</button>
+                </div>
+            </div>
+            <div class="product4" id="product4">
+                <div>Swedish Meatballs</div>
+                <div class="img"></div>
+                <div>155,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit4">Edit</button>
+                    <button class="Remove4" id="Remove4">Remove</button>
+                </div>
+            </div>
+            <div class="product42" id="product42">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Swedish Meatballs</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">155,000   </textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save4">Save</button>
+                </div>
+            </div>
+            <div class="product5" id="product5">
+                <div>Slow Cooker Shredded Balsamic Beef</div>
+                <div class="img"></div>
+                <div>320,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit5">Edit</button>
+                    <button class="Remove5" id="Remove5">Remove</button>
+                </div>
+            </div>
+            <div class="product52" id="product52">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Slow Cooker Shredded Balsamic Beef</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">320,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save5">Save</button>
+                </div>
+            </div>
+            <div class="product6" id="product6">
+                <div>Item Name</div>
+                <div class="img"></div>
+                <div>000,000</div> 
+                <div class="Btns">
+                    <button class="Add" id="Add">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="productsDessert">
+        <div>Dessert</div>
+        <div>
+            <div class="product11" id="product11">
+                <div>Strawberry Cheese Cake Dessert</div>
+                <div class="img"></div>
+                <div>25,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit11">Edit</button>
+                    <button class="Remove11" id="Remove11">Remove</button>
+                </div>
+            </div>
+            <div class="product112" id="product112">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Strawberry Cheese Cake Dessert</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">25,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save11">Save</button>
+                </div>
+            </div>
+             <div class="product21" id="product21">
+                <div>Caramel Topped Cheese Cake Dessert</div>
+                <div class="img"></div>
+                <div>40,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit21">Edit</button>
+                    <button class="Remove21" id="Remove21">Remove</button>
+                </div>
+            </div>
+            <div class="product121" id="product121">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Caramel Topped Cheese Cake Dessert</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">220,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save21">Save</button>
+                </div>
+            </div>
+            <div class="product13" id="product13">
+                <div>Cake Dessert</div>
+                <div class="img"></div>
+                <div>50,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit13">Edit</button>
+                    <button class="Remove13" id="Remove13">Remove</button>
+                </div>
+            </div>
+            <div class="product132" id="product132">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Cake Dessert</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">50,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save13">Save</button>
+                </div>
+            </div>
+            <div class="product14" id="product14">
+                <div>Caramel Topped Cheese Cake Dessert</div>
+                <div class="img"></div>
+                <div>40,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit14">Edit</button>
+                    <button class="Remove14" id="Remove14">Remove</button>
+                </div>
+            </div>
+            <div class="product142" id="product142">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Caramel Topped Cheese Cake Dessert</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">40,000   </textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save14">Save</button>
+                </div>
+            </div>
+            <div class="product15" id="product15">
+                <div>Pancake with Chocolate</div>
+                <div class="img"></div>
+                <div>35,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit15">Edit</button>
+                    <button class="Remove15" id="Remove15">Remove</button>
+                </div>
+            </div>
+            <div class="product152" id="product152">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Pancake with Chocolate</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">35,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save15">Save</button>
+                </div>
+            </div>
+            <div class="product16" id="product16">
+                <div>Ice Cream</div>
+                <div class="img"></div>
+                <div>45,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit16">Edit</button>
+                    <button class="Remove16" id="Remove16">Remove</button>
+                </div>
+            </div>
+            <div class="product162" id="product162">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Ice Cream</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">45,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save16">Save</button>
+                </div>
+            </div>
+            <div class="product17" id="product17">
+                <div>Item Name</div>
+                <div class="img"></div>
+                <div>000,000</div> 
+                <div class="Btns">
+                    <button class="Add" id="Add">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="productsDrink">
+        <div>Drinks</div>
+        <div>
+            <div class="product111" id="product111">
+                <div>Pepsi</div>
+                <div class="img"></div>
+                <div>25,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit111">Edit</button>
+                    <button class="Remove111" id="Remove111">Remove</button>
+                </div>
+            </div>
+            <div class="product1111" id="product1111">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Pepsi</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">25,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save111">Save</button>
+                </div>
+            </div>
+             <div class="product222" id="product222">
+                <div>Cocacola</div>
+                <div class="img"></div>
+                <div>25,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit222">Edit</button>
+                    <button class="Remove222" id="Remove222">Remove</button>
+                </div>
+            </div>
+            <div class="product2222" id="product2222">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Cocacola</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">25,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save222">Save</button>
+                </div>
+            </div>
+            <div class="product333" id="product333">
+                <div>Redbull</div>
+                <div class="img"></div>
+                <div>50,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit333">Edit</button>
+                    <button class="Remove333" id="Remove333">Remove</button>
+                </div>
+            </div>
+            <div class="product3333" id="product3333">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Redbull</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">50,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save333">Save</button>
+                </div>
+            </div>
+            <div class="product444" id="product444">
+                <div>smoothie Lemon mint</div>
+                <div class="img"></div>
+                <div>35,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit444">Edit</button>
+                    <button class="Remove444" id="Remove444">Remove</button>
+                </div>
+            </div>
+            <div class="product4444" id="product4444">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">smoothie Lemon mint</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">35,000   </textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save444">Save</button>
+                </div>
+            </div>
+            <div class="product555" id="product555">
+                <div>smoothie watermelon</div>
+                <div class="img"></div>
+                <div>40,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit555">Edit</button>
+                    <button class="Remove555" id="Remove555">Remove</button>
+                </div>
+            </div>
+            <div class="product5555" id="product5555">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">smoothie watermelon</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">45,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save555">Save</button>
+                </div>
+            </div>
+            <div class="product666" id="product666">
+                <div>smoothie Mango</div>
+                <div class="img"></div>
+                <div>50,000</div> 
+                <div class="Btns">
+                    <button class="Edit" id="Edit666">Edit</button>
+                    <button class="Remove666" id="Remove666">Remove</button>
+                </div>
+            </div>
+            <div class="product6666" id="product6666">
+                <textarea id="itemName" name="item name" style="width: 90%;height: 40px;">Ice Cream</textarea>
+                <div class="img"></div>
+                <textarea id="itemName" name="item name" style="width: 90%;height: 20px;">50,000</textarea> 
+                <div class="Btns">
+                    <button class="Save" id="Save666">Save</button>
+                </div>
+            </div>
+            <div class="product17" id="product17">
+                <div>Item Name</div>
+                <div class="img"></div>
+                <div>000,000</div> 
+                <div class="Btns">
+                    <button class="Add" id="Add">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+          <div>
+            <div>Brand X.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem, ipsum dolor.</div>
+            <div>Lorem ipsum dolor sit.</div>
+            <div>
+              <div><i class="fa fa-facebook"></i></div>
+              <div><i class="fa fa-instagram"></i></div>
+              <div><i class="fa fa-twitter"></i></div>
+            </div>
+          </div>
+          <div>
+            <div>Service</div>
+            <div><a href="#">Products</a></div>
+            <div><a href="#">Help & Support</a></div>
+            <div><a href="#">Pricing</a></div>
+          </div>
+          <div>
+            <div>Product</div>
+            <div><a href="#">Sofa's</a></div>
+            <div><a href="#">Chair's</a></div>
+            <div><a href="#">Living Room</a></div>
+          </div>
+          <div>
+            <div>Contact</div>
+            <div>New York City , USA 10004 +1</div>
+            <div>100 1004 0001</div>
+            <div>brain@brandx.com</div>
+          </div>
+        </div>
+      </footer>
+    <script src="Edititemjs.js"></script>
+</body>
+</html>

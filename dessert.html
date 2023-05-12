@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styleDessert.css">
+</head>
+<body class="">
+  <div class="box-1">
+    <h2><i class="fa-solid fa-cart-shopping"></i></h2>
+    <div class="orders">    
+        <div id="order1">
+            <div class="box">
+            <img src="imgs/chcake1.jpg" style="width: 50px; height: 50px;"/>
+            <h2 id="price1">0</h2>
+            </div>
+            <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn1">-</button>
+            <label id="countLabel1">0</label>
+            <button  class="increaseBtn" id="increaseBtn1">+</button>
+            <button class="resetBtn" id="resetBtn1"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        </div>
+        <div id="order2">
+            <div class="box">
+            <img src="imgs/chcake2.jpg" style="width: 50px; height: 50px;"/>
+            <h2 id="price2">0</h2>
+        </div>
+        <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn2">-</button>
+            <label id="countLabel2">0</label>
+            <button class="increaseBtn" id="increaseBtn2">+</button>
+            <button class="resetBtn" id="resetBtn2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        </div>
+        <div id="order3">
+            <div class="box">
+            <img src="imgs/chcake3.jpg" style="width: 50px; height: 50px;"/>
+            <h2 id="price3">0</h2>
+            </div>
+            <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn3">-</button>
+            <label id="countLabel3">0</label>
+            <button class="increaseBtn" id="increaseBtn3">+</button>
+            <button class="resetBtn" id="resetBtn3"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        </div>
+        <div id="order4">
+            <div class="box">
+            <img src="imgs/chcake4.jpg" style="width: 50px; height: 50px;"/>
+            <h2 id="price4">0</h2>
+        </div>
+        <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn4">-</button>
+            <label id="countLabel4">0</label>
+            <button class="increaseBtn" id="increaseBtn4">+</button>
+            <button  class="resetBtn" id="resetBtn4"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        </div>
+        <div id="order5">
+            <div class="box">
+            <img src="imgs/choco1.jpeg" style="width: 50px; height: 50px;"/>
+            <h2 id="price5">0</h2>
+            </div>
+            <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn5">-</button>
+            <label id="countLabel5">0</label>
+            <button class="increaseBtn"id="increaseBtn5">+</button>
+            <button  class="resetBtn" id="resetBtn5"><i class="fa-sharp fa-solid fa-trash"></i></button>    
+            </div>
+        </div>
+        <div id="order6">
+            <div class="box">
+            <img src="imgs/desert1.jpg" style="width: 50px; height: 50px;"/>
+            <h2 id="price6">0</h2>
+            </div>
+            <div class="Btn">
+            <button class="decreaseBtn" id="decreaseBtn6">-</button>
+            <label id="countLabel6">0</label>
+            <button class="increaseBtn"id="increaseBtn6">+</button>
+            <button  class="resetBtn" id="resetBtn6"><i class="fa-sharp fa-solid fa-trash"></i></button>    
+            </div>
+        </div>
+        <div id="total">
+            <button class="totalBtn" id="totalBtn5">Total</button>
+            <div id="totalPrice"></div>
+        </div>
+        <div class="checkOut"><a href="checkOut.html"><button class="checkOutBtn">Check out</button></a></div>
+        </div>
+  </div>
+    <div class="container">
+        <header>
+            <nav>
+                <div>H<span>U</span>M EL M<span>A</span>M</div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="meat.html">Meat</a></li>
+                  <li><a href="drinks.html">Drinks</a></li>
+                  <li><a href="dessert.html">Dessert</a></li>
+                  <li class="Login"><a href="Login.html">Logout</a></li>
+                </ul>
+              </nav>
+              <div>
+                <div>
+                  <h1>Welcome</h1>
+                  <h3>
+                    Dessert<br />
+                    After the main Meal,<br />
+                    You should do one of the following
+                  </h3>
+                </div>
+              </div>
+        </header>
+        <section >
+          <div class="list">
+            <div class="item">
+            <img src="imgs/chcake1.jpg">
+            <div>
+            <div class="title"><h1>Strawberry Cheese Cake Dessert</h1></div>
+            <div class="price">25</div>
+            <button id="AddProduct1">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/chcake2.jpg">
+            <div>
+            <div class="title"><h1>Caramel Topped Cheese Cake Dessert</h1></div>
+            <div class="price">40</div>
+            <button id="AddProduct2">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/chcake3.jpg">
+            <div>
+            <div class="title"><h1>Cake Dessert</h1></div>
+            <div class="price">50</div>
+            <button id="AddProduct3">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/chcake4.jpg">
+            <div>
+            <div class="title"><h1>Caramel Topped Cheese Cake Desser</h1></div>
+            <div class="price">40</div>
+            <button id="AddProduct4">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/choco1.jpeg">
+            <div>
+            <div class="title"><h1>Pancake with Chocolate</h1></div>
+            <div class="price">35</div>
+            <button id="AddProduct5">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/desert1.jpg">
+            <div>
+            <div class="title"><h1>Ice Cream</h1></div>
+            <div class="price">45</div>
+            <button id="AddProduct6">Add To Cart</button>
+            </div>
+          </div>
+          </div>
+        </section>
+    </div>
+    <footer>
+      <div>
+        <div>
+          <div>Brand X.</div>
+          <div>Lorem ipsum dolor sit amet.</div>
+          <div>Lorem, ipsum dolor.</div>
+          <div>Lorem ipsum dolor sit.</div>
+          <div>
+            <div><i class="fa fa-facebook"></i></div>
+            <div><i class="fa fa-instagram"></i></div>
+            <div><i class="fa fa-twitter"></i></div>
+          </div>
+        </div>
+        <div>
+          <div>Service</div>
+          <div><a href="#">Products</a></div>
+          <div><a href="#">Help & Support</a></div>
+          <div><a href="#">Pricing</a></div>
+          <div><a href="#">FAQ</a></div>
+        </div>
+        <div>
+          <div>Product</div>
+          <div><a href="#">Sofa's</a></div>
+          <div><a href="#">Chair's</a></div>
+          <div><a href="#">Living Room</a></div>
+          <div><a href="#">Office</a></div>
+        </div>
+        <div>
+          <div>Contact</div>
+          <div>New York City , USA 10004 +1</div>
+          <div>100 1004 0001</div>
+          <div>brain@brandx.com</div>
+        </div>
+      </div>
+    </footer>
+    <script src="dessertJs.js"></script>
+</body>
+</html>
